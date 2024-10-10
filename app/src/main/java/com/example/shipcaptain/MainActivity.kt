@@ -43,7 +43,7 @@ fun ShipCaptain() {
         Text("Treasures found: ${treasuresFound.value}")
         Text("Direction: ${direction.value}")
         Text(stormOrTreasure.value)
-//   Hello
+
 
         Button(onClick = {
             direction.value = "North"
